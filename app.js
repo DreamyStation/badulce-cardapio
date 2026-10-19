@@ -2,7 +2,7 @@
 (function(){
 'use strict';
 /* CONFIGURE AQUI */
-const WHATS='5547992393737';/* WhatsApp da vendedora: DDI 55 + DDD 47 + número */
+const WHATS='5547992695628';/* WhatsApp da vendedora: DDI 55 + DDD 47 + número */
 const INSTA='baldulce._';/* Instagram, sem @ */
 const MAXQ=20;/* limite por item, evita pedidos digitados errado */
 window.POP={extra:'.passo svg,.hero .btn,.rodape p'};
