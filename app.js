@@ -37,7 +37,7 @@ function desenha(){
   topo.append(foto,tx);card.appendChild(topo);
   if(prod.extra){
    const fs=el('fieldset','ops');fs.appendChild(el('legend',null,prod.extra.rot));
-   const ch=el('button','chip','+ '+prod.extra.nome+' · +'+brl(prod.extra.p));ch.type='button';ch.setAttribute('aria-pressed',m);
+   const ch=el('button','chip','+ '+prod.extra.nome+' · +'+brl(prod.extra.p).replace(' ',' '));ch.type='button';ch.setAttribute('aria-pressed',m);
    ch.onclick=()=>{comExtra[prod.id]=!comExtra[prod.id];desenha()};
    fs.appendChild(ch);card.appendChild(fs);
   }
